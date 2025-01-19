@@ -95,7 +95,7 @@ The solution from Professor Cheung:
 Reflection: Evidently, my initial code did not consider all that needed to be counted for rotation. 
 However, with the assistance of the solution code, I was able to rotate this image. 
 
-
+![Rotated Image](logbook/RotatedImage)
                 
 ## Task 2: Image Shearing 
 The resulting image should be the same size as the original. (i.e. the matrix storing the image should have the same dimensions, so some clipping of the image may occur).
@@ -168,3 +168,5 @@ Professor Cheung's solution:
                         end
                     end
                 end
+
+![Sheared Image](logbook/ShearedImage)
