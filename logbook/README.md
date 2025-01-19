@@ -95,8 +95,9 @@ The solution from Professor Cheung:
 Reflection: Evidently, my initial code did not consider all that needed to be counted for rotation. 
 However, with the assistance of the solution code, I was able to rotate this image. 
 
-![Rotated Image](logbook/RotatedImage)
-                
+<img width="163" alt="Screen Shot 2025-01-19 at 5 42 19 PM" src="https://github.com/user-attachments/assets/3186e0c5-275b-497c-86b6-9f286619b1c2" />
+
+
 ## Task 2: Image Shearing 
 The resulting image should be the same size as the original. (i.e. the matrix storing the image should have the same dimensions, so some clipping of the image may occur).
 
@@ -169,4 +170,4 @@ Professor Cheung's solution:
                     end
                 end
 
-![Sheared Image](logbook/ShearedImage)
+ <img width="166" alt="Screen Shot 2025-01-19 at 5 55 13 PM" src="https://github.com/user-attachments/assets/d8792004-e06d-4917-9bb2-f86cfa9dcbaa" />
