@@ -9,7 +9,7 @@ The following code was to load and test the image:
 `imshow(clown)`
 
 Output:
-<p align="center"> <img src="assets/clown.jpg" /> </p><BR>
+<p align="center"> <img src="images/clown.jpg" /> </p><BR>
 
 ## Task 1: Rotating Image
 The following code block was developed to:
@@ -93,12 +93,14 @@ The solution from Professor Cheung:
                         end
                     end
                 end
-
-
+<BR>
+Output
+<p align="center"> <img src="images/rotated.jpg" /> </p><BR>
+<BR> <BR>
 Reflection: 
 - Evidently, my initial code did not consider all that needed to be counted for rotation. 
 - However, with the assistance of the solution code, I was able to rotate this image. 
-
+<BR><BR>
                
 ## Task 2: Image Shearing 
 The resulting image should be the same size as the original. (i.e. the matrix storing the image should have the same dimensions, so some clipping of the image may occur).
@@ -167,3 +169,6 @@ Professor Cheung's solution:
                         end
                     end
                 end
+<BR>
+Output
+<p align="center"> <img src="images/sheared.jpg" /> </p><BR>
