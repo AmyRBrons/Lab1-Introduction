@@ -1,4 +1,5 @@
 # Design of Visual Systems - Lab One 
+## Amy Brons - Design of Visual Systems
 Lab was to introduct MATLAB and intro students to basic programming.
 MATLAB was installed, the following was the completed code and tasks.
 
@@ -7,6 +8,8 @@ The following code was to load and test the image:
 `load clown`
 `imshow(clown)`
 
+Output:
+<p align="center"> <img src="assets/clown.jpg" /> </p><BR>
 
 ## Task 1: Rotating Image
 The following code block was developed to:
@@ -92,21 +95,16 @@ The solution from Professor Cheung:
                 end
 
 
-Reflection: Evidently, my initial code did not consider all that needed to be counted for rotation. 
-However, with the assistance of the solution code, I was able to rotate this image. 
+Reflection: 
+- Evidently, my initial code did not consider all that needed to be counted for rotation. 
+- However, with the assistance of the solution code, I was able to rotate this image. 
 
-<img width="163" alt="Screen Shot 2025-01-19 at 5 42 19 PM" src="https://github.com/user-attachments/assets/3186e0c5-275b-497c-86b6-9f286619b1c2" />
-
-
+               
 ## Task 2: Image Shearing 
 The resulting image should be the same size as the original. (i.e. the matrix storing the image should have the same dimensions, so some clipping of the image may occur).
-
 If a source pixel lies outside the image you should paint it black.
-
 Use “nearest pixel” only, as before.
-
 You should centre the sheared result (i.e. the centre pixel of the image remains stationary).
-
 The shear values (Xshear, and Yshear) should be expressed as fractions of the images width and height respectively.
 
 My initial code:
@@ -169,5 +167,3 @@ Professor Cheung's solution:
                         end
                     end
                 end
-
- <img width="166" alt="Screen Shot 2025-01-19 at 5 55 13 PM" src="https://github.com/user-attachments/assets/d8792004-e06d-4917-9bb2-f86cfa9dcbaa" />
