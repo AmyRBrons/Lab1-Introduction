@@ -62,6 +62,7 @@ Here was my initial code:
                 Out = Rotate(clown, t)
 
 The solution from Professor Cheung:
+
                 %ImageOut = rotate(ImageIn, Theta)
                 %
                 %Rotates the Image by Theta degrees.
