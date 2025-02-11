@@ -97,6 +97,12 @@ The solution from Professor Cheung:
 Output
 <p align="center"> <img src="images/rotated.jpg" /> </p><BR>
 <BR> <BR>
+Looking at my code versus Professor Cheung's solution:
+My initial approach kind of worked, but now I can see I made it more complicated than necessary
+I had the right basic ideas about finding the center, creating a transformation and handling boundaries
+However, the professor's solution showed me a much cleaner way to do it. 
+The matrix multiplication especially makes so much more sense now - it's way more efficient than my separate calculations.
+
 Reflection: 
 - Evidently, my initial code did not consider all that needed to be counted for rotation. 
 - However, with the assistance of the solution code, I was able to rotate this image. 
@@ -172,3 +178,8 @@ Professor Cheung's solution:
 <BR>
 Output
 <p align="center"> <img src="images/sheared.jpg" /> </p><BR>
+
+Comments:
+Looking at my outputs versus the expected results helped me understand where my code needed improvement. I tried to jump straight into coding at first, but taking time to understand the transformation matrices first is the better approach. It's pretty cool to see how these basic transformations can be combined to create more complex image manipulations.
+The debugging process was challenging but rewarding - especially when I finally got the rotated image to look right! It's interesting how something that seems simple at first (just rotating an image) actually involves quite a bit of mathematical thinking and careful coding.
+I can definitely see how these concepts will be useful for more complex image processing tasks later in the course. The way we handle coordinates and transformations seems like it would be fundamental for things like computer vision and graphics processing.
